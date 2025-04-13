@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: coral;
+          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .sombra {
+            width: 300px;
+            height: 100px;
+            padding: 15px;
+            background-color: coral;
+            box-shadow: 10px 10px 5px 12px lightblue inset;      
+        }
+
+
+        #exemplo1{
+            border: 1px solid black;
+            box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+            padding: 10px;
+            margin: 20px;
+            margin-bottom: 50PX;
+        
+        }
+        #exemplo2{
+            border: 1px solid rgb(0, 0, 0);
+            box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+            padding: 10px;
+            margin: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Efeito e sombra no texto!</h1>
+
+    <div class="sombra">Um elemento com uma sombra de caixa azul-clara e desfocada de 5px</div>
+
+    <h1>Sombras Mútiplas</h1>
+    <div id="exemplo1">
+        <h2>Sombras mútiplas</h2>
+        <p>box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green:</p>
+    </div>
+
+    <div id="exemplo2">
+        <h2>Várias sombras com efeito desfoque</h2>
+        <p>box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green:</p>
+    </div>
+
+=
+</body>
+</html>
