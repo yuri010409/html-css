@@ -8,18 +8,21 @@
 <body>
     <h1>Exemplo de Formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <p>
-            <label for="inome">Nome</label>
-            <input type="text" name="">
-        </p>
-        <p>
-            <label for="iemail">E-mail</label>
-            <input type="email" name="email" id="iemail" required>
-        </p>
-        <p>
-            <label for="itel">Telefone</label>
-        <input type="tel" name="itel" id="itel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
-        </p>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="20" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+            <input type="tel" name="btel" id="itel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx) xxxxx-xxxx">
+            </p>
+        </fieldset>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
