@@ -2,3 +2,13 @@
 
 /* Todas as demais mídias */
 
+@media print {
+
+}
+
+/* TABLET*/
+@media  screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+}
