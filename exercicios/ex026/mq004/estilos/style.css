@@ -58,7 +58,7 @@ img#print {display: none;}
     
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) and (max-width: 1920px){
     body{
         background: url(../imagens/back-pc.jpg) no-repeat;
         background-position: center center;
