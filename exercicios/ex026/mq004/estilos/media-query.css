@@ -13,12 +13,18 @@
     }
 
     main{
+        width: 90vw;
         border: solid black;
     }
     
     main h1{
         text-shadow: none;
         color: black;
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita através do site ww.cursoemvideo.com';
+        text-decoration: overline;
     }
     img#phone{display: none;}
     img#print{display: block;}
