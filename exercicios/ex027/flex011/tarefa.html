@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        div.container {
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div#one{
+            background-color: rgb(255, 238, 0);
+            border: solid black 2px;
+            text-align: center;
+            flex: 0 1 150px;
+        }
+        div#two{
+            background-color: rgb(255, 238, 0);
+            border: solid black 2px;
+            text-align: center;
+            flex: 2 0 150px;
+        }
+
+        div#three{
+            background-color:rgb(255, 238, 0);
+            border: solid black 2px;
+            text-align: center;
+            flex: 1 2 150px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="one">A</div>
+        <div id="two">B</div>
+        <div id="three" >C</div>
+    </div>
+</body>
+</html>
